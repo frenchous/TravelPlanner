@@ -6,17 +6,26 @@ using System.Windows.Forms;
 
 namespace TravelPlanner
 {
-    internal static class Program
+    static class Program
     {
-        /// <summary>
-        /// Главная точка входа для приложения.
-        /// </summary>
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+   
+            var trip = new Trip(
+                "Париж",
+                DateTime.Now,
+                DateTime.Now.AddDays(7),
+                50000m
+            );
+
+            trip.AddExpense(new Expense("Билеты на самолет", 25000m));
+            trip.AddExpense(new Expense("Отель", 15000m));
+
+            Application.Run(new MainForm(trip));
         }
     }
 }

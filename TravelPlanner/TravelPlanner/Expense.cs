@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Text.Json.Serialization;
 
 namespace TravelPlanner
 {
@@ -12,12 +9,15 @@ namespace TravelPlanner
         public decimal Amount { get; set; }
         public DateTime Date { get; set; }
 
+        [JsonConstructor]
         public Expense(string description, decimal amount)
         {
             Description = description;
             Amount = amount;
             Date = DateTime.Now;
         }
+
+        public Expense() { }
 
         public override string ToString()
         {

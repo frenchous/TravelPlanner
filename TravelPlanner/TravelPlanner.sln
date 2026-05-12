@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.37027.9 d17.14
+VisualStudioVersion = 17.14.37027.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelPlanner", "TravelPlanner\TravelPlanner.csproj", "{CA18BF7F-08BF-4D00-B478-3D5A4AB018D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelPlannerUITests", "TravelPlannerUITests\TravelPlannerUITests.csproj", "{5A223019-3B52-4242-A530-3563F381710D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelPlannerTests", "TravelPlannerTests\TravelPlannerTests.csproj", "{D085AAB2-D829-4950-AE74-ACD1EAC5E4D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{CA18BF7F-08BF-4D00-B478-3D5A4AB018D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA18BF7F-08BF-4D00-B478-3D5A4AB018D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA18BF7F-08BF-4D00-B478-3D5A4AB018D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A223019-3B52-4242-A530-3563F381710D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A223019-3B52-4242-A530-3563F381710D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A223019-3B52-4242-A530-3563F381710D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A223019-3B52-4242-A530-3563F381710D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D085AAB2-D829-4950-AE74-ACD1EAC5E4D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D085AAB2-D829-4950-AE74-ACD1EAC5E4D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D085AAB2-D829-4950-AE74-ACD1EAC5E4D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D085AAB2-D829-4950-AE74-ACD1EAC5E4D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
